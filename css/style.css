@@ -1,15 +1,47 @@
 * {
-    background-color: lightblue;
+    background-color: whitesmoke;
     margin-top: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
 }
 
-h1 {
+.topnav {
+    background-color: lightblue;
+    ;
+}
+#anavbar {
+    background-color: lightblue;
+}
+
+#h1navbar {
+    background-color: lightblue;
+}
+
+#pfooter {
+    background-color: lightblue;
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
 h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+footer {
+    background-color: lightblue;
     text-align: center;
 }
