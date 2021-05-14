@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/54e1bfaea9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>registrate</title>
+</head>
+<body>
+    <div class="topnav">
+        <a id="anavbar" class="active" href="index.html">Home</a>
+        <a id="anavbar" href="about.html">Acerca de</a>
+        <a id="anavbar" href="contact.html">Contacto</a>
+        <a id="anavbar" class="active" href="registro.html">Registrate</a>
+        <a id="anavbar" class="active" href="sucursales.html">Sucursales</a>
+        <h1 id="h1navbar">Recetas de cocina</h1>
+    </div>
+    <br><br>
+    <h2>Formulario de registro</h2>
+<form action="show_data.html" target="_blank">
+    <label for="fname">Nombre:</label>
+    <input type="text" name="fname" placeholder="Ingrese su nombre aqui..."><br><br>
+    <label for="lname">Apellido:</label>
+    <input type="text" name="lname" placeholder="Ingrese su apellido aqui..."><br><br>
+    <label for="address">Direccion:</label>
+    <input type="text" name="address" placeholder="Ingrese su dirección aqui..."><br><br>
+    <label for="city">Ciudad:</label>
+    <input type="text" name="city" value="C.A.B.A"><br><br>
+    <label for="zipcode">Código Postal:</label>
+    <input type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui..."><br><br>
+    <label for="birthdate">Fecha de Nacimiento (mm/dd/yyyy):</label>
+    <input type="text" name="birthdate"><br><br>
+    <p>Género
+        <input type="radio" name="gender" value="hombre" cheked>hombre
+        <input type="radio" name="gender" value="mujer">Mujer
+        <input type="radio" name="gender" value="Otro">Otro
+    </p>
+    <p> Estudios:
+        <input type="checkbox" name="estudio" value="primarios"> primarios
+        <input type="checkbox" name="estudio" value="secundaria"> Secundarios
+        <input type="checkbox" name="estudio" value="terciarios"> Terciarios
+        <input type="checkbox" name="estudio" value="universitarios"> Universitarios
+        <input type="checkbox" name="estudio" value="otro"> Otro
+    </p>
+    <input type="submit" value="Submit">
+</form> 
+<p>Si usted hace click en el boton "enviar", la información sera enviada a la pagina "show_data.html".</p>
+    <footer>
+        <a href="https://wa.me/+542995322865" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <p id="pfooter">Derechos reservados 2021</p>
+    </footer>
+</body>
+</html>
