@@ -22,9 +22,9 @@
         </nav>
     </header>
     <main>
-    <br><br>
+        <br><br>
         <h2>Formulario de registro</h2>
-        <form action="show_data.html" target="_blank">
+        <form class="formulario" action="show_data.html" target="_blank">
             <label for="fname">Nombre:</label>
             <input type="text" name="fname" placeholder="Ingrese su nombre aqui..."><br><br>
             <label for="lname">Apellido:</label>
@@ -35,13 +35,13 @@
             <input type="text" name="city" value="C.A.B.A"><br><br>
             <label for="zipcode">Código Postal:</label>
             <input type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui..."><br><br>
-            <label for="birthdate">Fecha de Nacimiento (mm/dd/yyyy):</label>
-            <input type="text" name="birthdate"><br><br>
+            <label for="birthdate">Fecha de Nacimiento (dd/mm/yyyy):</label>
+            <input type="date" name="birthdate"><br><br>
             <p>Género
                 <input type="radio" name="gender" value="hombre" cheked>hombre
                 <input type="radio" name="gender" value="mujer">Mujer
                 <input type="radio" name="gender" value="Otro">Otro
-            </p>
+            </p><br>
             <p> Estudios:
                 <input type="checkbox" name="estudio" value="primarios"> primarios
                 <input type="checkbox" name="estudio" value="secundaria"> Secundarios
@@ -49,9 +49,9 @@
                 <input type="checkbox" name="estudio" value="universitarios"> Universitarios
                 <input type="checkbox" name="estudio" value="otro"> Otro
             </p>
-            <input type="submit" value="Submit">
-        </form> 
-        <p>Si usted hace click en el boton "enviar", la información sera enviada a la pagina "show_data.html".</p>
+            <input type="submit" value="Enviar">
+            <p>Si usted hace click en el boton "enviar", la información sera enviada a la pagina "show_data.html".</p>
+        </form>
     </main>
     <footer>
         <br>
